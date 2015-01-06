@@ -1,8 +1,8 @@
 import time
 import sys
+from text_strings import all_strings
 
-
-print "Hello! This is a game to tell who your mystery lover is!"
+print all_strings['welcome']
 
 time.sleep(1.5)
 
